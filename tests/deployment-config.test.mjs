@@ -18,9 +18,9 @@ test('GitHub Pages deploys the static root for the SUOC custom domain', async ()
   assert.match(workflow, /id-token:\s*write/);
   assert.match(workflow, /group:\s*["']?pages["']?/);
   assert.match(workflow, /cancel-in-progress:\s*false/);
-  assert.match(workflow, /actions\/checkout@v4/);
-  assert.match(workflow, /actions\/configure-pages@v5/);
-  assert.match(workflow, /actions\/upload-pages-artifact@v4/);
+  assert.match(workflow, /actions\/checkout@v7/);
+  assert.match(workflow, /actions\/configure-pages@v6/);
+  assert.match(workflow, /actions\/upload-pages-artifact@v5/);
   assert.match(workflow, /path:\s*["']?\.["']?/);
   assert.match(workflow, /actions\/deploy-pages@v5/);
   assert.equal(customDomain, 'sindicat.univ-ovidius.ro\n');

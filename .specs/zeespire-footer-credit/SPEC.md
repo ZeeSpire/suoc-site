@@ -18,7 +18,7 @@ each site's surrounding footer and visual treatment, verify the result with
 dependency-free tests, commit each repository independently, and push every
 configured remote.
 
-The implementation has 52 tasks across eighteen feature phases.
+The implementation has 54 tasks across nineteen feature phases.
 
 ## Acceptance Criteria
 
@@ -94,6 +94,8 @@ The implementation has 52 tasks across eighteen feature phases.
 - [ ] GitHub Actions deploys the static repository root to GitHub Pages on
   pushes to `main` and manual dispatch, using the current official Pages
   actions, least-privilege token permissions, and deployment concurrency.
+- [ ] The Pages workflow uses the current Node.js 24-compatible action majors
+  without GitHub's Node.js 20 deprecation annotation.
 - [ ] The repository records `sindicat.univ-ovidius.ro` as its only custom
   domain and ignores macOS metadata while retaining direct `file://` use.
 - [ ] Each Git repository has one scoped commit pushed to every configured
@@ -343,15 +345,24 @@ HTML files from the local filesystem only and make no network requests.
   with the tested static-root deployment and domain configuration, then run the
   complete offline suite. -> satisfies [TEST-ZFC-51]
 
+## Phase 19: Current GitHub Actions Runtime [completed]
+
+- [x] [TEST-ZFC-53] Update `tests/deployment-config.test.mjs` to require the
+  current Node.js 24-compatible official majors: `checkout@v7`,
+  `configure-pages@v6`, `upload-pages-artifact@v5`, and `deploy-pages@v5`.
+  Confirm the focused test fails against the initial deployed workflow.
+- [x] [IMPL-ZFC-54] Update `.github/workflows/pages.yml` to those tested action
+  majors, rerun the full suite, and verify a warning-free deployment.
+  -> satisfies [TEST-ZFC-53]
+
 ---
 
 ## Resume Context
 
-> All 52 implementation tasks are complete and the local suite passes 28 tests.
-> Initialize `main`, create the absent NAS bare repository at
-> `/volume1/git/zeespire/suoc-site.git`, push to GitHub and NAS, enable Pages in
-> workflow mode, configure the custom domain, and verify the deployment. Keep
-> the current WordPress DNS record unchanged until the deliberate cutover.
+> All 54 implementation tasks are complete and the local suite passes 28 tests.
+> Commit the Node.js 24-compatible workflow update, push the identical commit to
+> GitHub and NAS, and verify the second Pages deployment has no annotations.
+> Keep the current WordPress DNS record unchanged until deliberate cutover.
 
 ## Decision Log
 
@@ -434,6 +445,8 @@ HTML files from the local filesystem only and make no network requests.
 | [IMPL-ZFC-50] | — | Focused browser test: 1 passed, 0 failed; full SUOC suite: 27 passed, 0 failed | Reduced one minimum-height declaration from 10.5rem to 9rem; no refactor was needed, and 390/1225 px screenshots confirmed six equal 144 px cards with readable titles and zero overflow |
 | [TEST-ZFC-51] | `node --test tests/deployment-config.test.mjs`: 1 failed — `.github/workflows/pages.yml` is absent | — | — |
 | [IMPL-ZFC-52] | — | Focused deployment test: 1 passed, 0 failed; full SUOC suite: 28 passed, 0 failed; workflow YAML parsed successfully | Added the smallest static-root Pages workflow plus exact domain and metadata exclusions; no refactor was needed |
+| [TEST-ZFC-53] | Focused deployment test: 1 failed — workflow still uses `checkout@v4` instead of current `checkout@v7` | — | — |
+| [IMPL-ZFC-54] | — | Focused deployment test: 1 passed, 0 failed; full SUOC suite: 28 passed, 0 failed; workflow YAML parsed successfully | Updated only the three Node.js 20 action majors; no further local refactor was needed |
 
 ## Deviations
 
