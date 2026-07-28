@@ -1,0 +1,1850 @@
+{
+  "sourceOrigin": "https://sindicat.univ-ovidius.ro",
+  "capturedAt": "2026-07-27T15:53:32.362Z",
+  "routes": [
+    {
+      "id": "start",
+      "type": "page",
+      "sourceSlug": "start",
+      "file": "index.html",
+      "title": "Start",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/",
+      "sourceId": 268
+    },
+    {
+      "id": "oug-9-2017-personal-nedidactic",
+      "type": "derived",
+      "sourceSlug": "start",
+      "file": "informatii/oug-9-2017-personal-nedidactic.html",
+      "title": "Majorarea cu 15% a salariilor personalului nedidactic (2017)",
+      "sourceId": null
+    },
+    {
+      "id": "oug-17-2017-asimilare-functii",
+      "type": "derived",
+      "sourceSlug": "start",
+      "file": "informatii/oug-17-2017-asimilare-functii.html",
+      "title": "Asimilarea funcțiilor pentru salarizare (OUG 17/2017)",
+      "sourceId": null
+    },
+    {
+      "id": "despre-noi",
+      "type": "page",
+      "sourceSlug": "despre-noi",
+      "file": "despre-noi.html",
+      "title": "Despre noi",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/despre-noi/",
+      "sourceId": 6
+    },
+    {
+      "id": "obiective",
+      "type": "page",
+      "sourceSlug": "obiective",
+      "file": "obiective.html",
+      "title": "Obiective",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/obiective/",
+      "sourceId": 8
+    },
+    {
+      "id": "conducere",
+      "type": "page",
+      "sourceSlug": "conducere",
+      "file": "conducere.html",
+      "title": "Conducere",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/conducere/",
+      "sourceId": 11
+    },
+    {
+      "id": "afilieri",
+      "type": "page",
+      "sourceSlug": "afilieri",
+      "file": "afilieri.html",
+      "title": "Afilieri",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/afilieri/",
+      "sourceId": 265
+    },
+    {
+      "id": "legislatie",
+      "type": "page",
+      "sourceSlug": "legislatie",
+      "file": "legislatie.html",
+      "title": "Legislație",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/legislatie/",
+      "sourceId": 15
+    },
+    {
+      "id": "contact",
+      "type": "page",
+      "sourceSlug": "contact",
+      "file": "contact.html",
+      "title": "Contact",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/contact/",
+      "sourceId": 17
+    },
+    {
+      "id": "evenimente",
+      "type": "archive",
+      "categoryId": 3,
+      "file": "evenimente.html",
+      "title": "Evenimente",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/category/evenimente/",
+      "sourceId": null
+    },
+    {
+      "id": "noutati",
+      "type": "archive",
+      "categoryId": 4,
+      "file": "noutati.html",
+      "title": "Noutăți",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/category/noutati/",
+      "sourceId": null
+    },
+    {
+      "id": "spectacol-craciun-2014",
+      "type": "post",
+      "sourceSlug": "spectacol-de-craciun-oferit-de-sindicatul-uoc-decembrie-2014",
+      "file": "articole/spectacol-craciun-2014.html",
+      "title": "Spectacol de Crăciun oferit de Sindicatul UOC, decembrie 2014",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/spectacol-de-craciun-oferit-de-sindicatul-uoc-decembrie-2014/",
+      "sourceId": 176
+    },
+    {
+      "id": "sejur-profesori-2013",
+      "type": "post",
+      "sourceSlug": "sejur-de-7-zile-pentru-profesorii-universitatii-ovidius",
+      "file": "articole/sejur-profesori-2013.html",
+      "title": "Sejur de 7 zile pentru profesorii Universităţii „Ovidius”",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/sejur-de-7-zile-pentru-profesorii-universitatii-ovidius/",
+      "sourceId": 68
+    },
+    {
+      "id": "masa-festiva-8-martie-2013",
+      "type": "post",
+      "sourceSlug": "masa-festiva-pentru-femeile-din-universitate-cu-ocazia-zilei-de-8-martie",
+      "file": "articole/masa-festiva-8-martie-2013.html",
+      "title": "Masă festivă pentru femeile din Universitate, cu ocazia zilei de 8 Martie",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/masa-festiva-pentru-femeile-din-universitate-cu-ocazia-zilei-de-8-martie/",
+      "sourceId": 126
+    },
+    {
+      "id": "serbare-craciun-copii-2013",
+      "type": "post",
+      "sourceSlug": "serbare-de-craciun-pentru-copiii-membrilor-de-sindicat",
+      "file": "articole/serbare-craciun-copii-2013.html",
+      "title": "Serbare de Crăciun pentru copiii membrilor de Sindicat",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/serbare-de-craciun-pentru-copiii-membrilor-de-sindicat/",
+      "sourceId": 113
+    },
+    {
+      "id": "ziua-unirii-2013",
+      "type": "post",
+      "sourceSlug": "intalnirea-profesorilor-universitatii-ovidius-cu-ocazia-zilei-unirii-24-ianuarie-2013",
+      "file": "articole/ziua-unirii-2013.html",
+      "title": "Întâlnirea profesorilor Universității „Ovidius” cu ocazia Zilei Unirii, 24 ianuarie 2013",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/intalnirea-profesorilor-universitatii-ovidius-cu-ocazia-zilei-unirii-24-ianuarie-2013/",
+      "sourceId": 96
+    },
+    {
+      "id": "cotizatie-2012",
+      "type": "post",
+      "sourceSlug": "consiliul-director-a-aprobat-in-sedinta-din-data-de-22-11-2012-conform-art-41-din-statutul-suoc-cuantumul-cotizatiei-de-membru-ca-procent-de-1-din-salariul-de-incadrare",
+      "file": "articole/cotizatie-2012.html",
+      "title": "Consiliul Director a aprobat în ședința din data de 22.11.2012, conform art.41 din Statutul SUOC, cuantumul cotizatiei de membru ca procent de 1% din salariul de încadrare.",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/consiliul-director-a-aprobat-in-sedinta-din-data-de-22-11-2012-conform-art-41-din-statutul-suoc-cuantumul-cotizatiei-de-membru-ca-procent-de-1-din-salariul-de-incadrare/",
+      "sourceId": 56
+    },
+    {
+      "id": "campanie-lavinia-2012",
+      "type": "post",
+      "sourceSlug": "sindicatul-universitatii-ovidius-din-constanta-demareaza-campania-de-strangere-de-fonduri-necesare-studentei-broasca-lavinia-din-universitatea-ovidius-constanta-facultatea-de-farmacie-bolnava-de-le",
+      "file": "articole/campanie-lavinia-2012.html",
+      "title": "Sindicatul Universității Ovidius din Constanța demarează campania de strângere de fonduri, necesare studentei Broască Lavinia din Universitatea Ovidius Constanța, Facultatea de Farmacie, bolnavă de leucemie, pentru realizarea unui transplant.",
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/sindicatul-universitatii-ovidius-din-constanta-demareaza-campania-de-strangere-de-fonduri-necesare-studentei-broasca-lavinia-din-universitatea-ovidius-constanta-facultatea-de-farmacie-bolnava-de-le/",
+      "sourceId": 38
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Start",
+      "file": "index.html"
+    },
+    {
+      "label": "Despre noi",
+      "file": "despre-noi.html"
+    },
+    {
+      "label": "Obiective",
+      "file": "obiective.html"
+    },
+    {
+      "label": "Conducere",
+      "file": "conducere.html"
+    },
+    {
+      "label": "Afilieri",
+      "file": "afilieri.html"
+    },
+    {
+      "label": "Evenimente",
+      "file": "evenimente.html"
+    },
+    {
+      "label": "Legislație",
+      "file": "legislatie.html"
+    },
+    {
+      "label": "Contact",
+      "file": "contact.html"
+    }
+  ],
+  "disclosures": [
+    "Candidaturi depuse pentru AG 30.06.2022",
+    "Convocator 23.06.2022",
+    "Rezultat alegeri",
+    "Convocator 09.11.2016",
+    "Convocator 02.11.2016",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "Protest guvern",
+    "Decontare navetă",
+    "Spor doctorat",
+    "Vouchere vacanță"
+  ],
+  "posts": [
+    {
+      "id": 176,
+      "slug": "spectacol-de-craciun-oferit-de-sindicatul-uoc-decembrie-2014",
+      "title": "Spectacol de Crăciun oferit de Sindicatul UOC, decembrie 2014",
+      "date": "2014-12-24",
+      "category": "Evenimente",
+      "categoryId": 3,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/spectacol-de-craciun-oferit-de-sindicatul-uoc-decembrie-2014/"
+    },
+    {
+      "id": 68,
+      "slug": "sejur-de-7-zile-pentru-profesorii-universitatii-ovidius",
+      "title": "Sejur de 7 zile pentru profesorii Universităţii „Ovidius”",
+      "date": "2013-06-27",
+      "category": "Noutăți",
+      "categoryId": 4,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/sejur-de-7-zile-pentru-profesorii-universitatii-ovidius/"
+    },
+    {
+      "id": 126,
+      "slug": "masa-festiva-pentru-femeile-din-universitate-cu-ocazia-zilei-de-8-martie",
+      "title": "Masă festivă pentru femeile din Universitate, cu ocazia zilei de 8 Martie",
+      "date": "2013-04-01",
+      "category": "Evenimente",
+      "categoryId": 3,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/masa-festiva-pentru-femeile-din-universitate-cu-ocazia-zilei-de-8-martie/"
+    },
+    {
+      "id": 113,
+      "slug": "serbare-de-craciun-pentru-copiii-membrilor-de-sindicat",
+      "title": "Serbare de Crăciun pentru copiii membrilor de Sindicat",
+      "date": "2013-01-26",
+      "category": "Evenimente",
+      "categoryId": 3,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/serbare-de-craciun-pentru-copiii-membrilor-de-sindicat/"
+    },
+    {
+      "id": 96,
+      "slug": "intalnirea-profesorilor-universitatii-ovidius-cu-ocazia-zilei-unirii-24-ianuarie-2013",
+      "title": "Întâlnirea profesorilor Universității „Ovidius” cu ocazia Zilei Unirii, 24 ianuarie 2013",
+      "date": "2013-01-25",
+      "category": "Evenimente",
+      "categoryId": 3,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/intalnirea-profesorilor-universitatii-ovidius-cu-ocazia-zilei-unirii-24-ianuarie-2013/"
+    },
+    {
+      "id": 56,
+      "slug": "consiliul-director-a-aprobat-in-sedinta-din-data-de-22-11-2012-conform-art-41-din-statutul-suoc-cuantumul-cotizatiei-de-membru-ca-procent-de-1-din-salariul-de-incadrare",
+      "title": "Consiliul Director a aprobat în ședința din data de 22.11.2012, conform art.41 din Statutul SUOC, cuantumul cotizatiei de membru ca procent de 1% din salariul de încadrare.",
+      "date": "2012-12-01",
+      "category": "Noutăți",
+      "categoryId": 4,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/consiliul-director-a-aprobat-in-sedinta-din-data-de-22-11-2012-conform-art-41-din-statutul-suoc-cuantumul-cotizatiei-de-membru-ca-procent-de-1-din-salariul-de-incadrare/"
+    },
+    {
+      "id": 38,
+      "slug": "sindicatul-universitatii-ovidius-din-constanta-demareaza-campania-de-strangere-de-fonduri-necesare-studentei-broasca-lavinia-din-universitatea-ovidius-constanta-facultatea-de-farmacie-bolnava-de-le",
+      "title": "Sindicatul Universității Ovidius din Constanța demarează campania de strângere de fonduri, necesare studentei Broască Lavinia din Universitatea Ovidius Constanța, Facultatea de Farmacie, bolnavă de leucemie, pentru realizarea unui transplant.",
+      "date": "2012-11-07",
+      "category": "Evenimente",
+      "categoryId": 3,
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/sindicatul-universitatii-ovidius-din-constanta-demareaza-campania-de-strangere-de-fonduri-necesare-studentei-broasca-lavinia-din-universitatea-ovidius-constanta-facultatea-de-farmacie-bolnava-de-le/"
+    }
+  ],
+  "media": {
+    "full": [
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2012/11/pentru-pagina-evenimente.jpg",
+        "localPath": "assets/media/full/2012/11/pentru-pagina-evenimente.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/01-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/01-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/02-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/02-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/03-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/03-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/04-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/04-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/05-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/05-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/06-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/06-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/7-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/7-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/protocoale-Custom.jpg",
+        "localPath": "assets/media/full/2013/06/protocoale-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242107-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242107-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242108-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242108-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242112-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242112-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242113-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242113-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242114-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242114-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242116-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242116-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242117-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242117-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242118-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242118-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242119-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242119-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242121-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242121-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242124-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242124-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242125-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242125-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242126-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242126-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242128-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P1242128-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063707-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063707-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063713-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063713-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063716-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063716-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063720-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063720-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063722-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063722-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063725-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063725-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063727-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063727-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063730-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063730-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063731-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063731-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063736-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063736-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063739-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063739-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063743-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063743-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063747-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063747-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063749-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063749-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063752-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063752-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063754-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063754-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063756-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063756-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063758-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063758-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063760-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063760-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063762-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063762-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063764-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063764-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063768-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063768-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063771-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063771-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063774-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063774-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063776-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063776-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063778-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063778-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063780-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063780-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063782-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063782-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063784-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063784-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063786-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063786-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063789-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063789-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063793-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063793-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063795-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063795-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063797-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063797-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063856-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063856-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063858-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063858-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063861-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063861-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063866-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063866-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063871-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063871-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063877-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/P3063877-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211369-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211369-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211371-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211371-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211385-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211385-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211389-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211389-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211391-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211391-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211393-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211393-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211396-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211396-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211398-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211398-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211399-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211399-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211404-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211404-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211410-Custom.jpg",
+        "localPath": "assets/media/full/2013/07/PC211410-Custom.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/01.jpg",
+        "localPath": "assets/media/full/2014/12/01.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/02.jpg",
+        "localPath": "assets/media/full/2014/12/02.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/03.jpg",
+        "localPath": "assets/media/full/2014/12/03.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/04.jpg",
+        "localPath": "assets/media/full/2014/12/04.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/05.jpg",
+        "localPath": "assets/media/full/2014/12/05.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/06.jpg",
+        "localPath": "assets/media/full/2014/12/06.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/07.jpg",
+        "localPath": "assets/media/full/2014/12/07.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/08.jpg",
+        "localPath": "assets/media/full/2014/12/08.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/09.jpg",
+        "localPath": "assets/media/full/2014/12/09.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/10.jpg",
+        "localPath": "assets/media/full/2014/12/10.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/11.jpg",
+        "localPath": "assets/media/full/2014/12/11.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/12.jpg",
+        "localPath": "assets/media/full/2014/12/12.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/13.jpg",
+        "localPath": "assets/media/full/2014/12/13.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/14.jpg",
+        "localPath": "assets/media/full/2014/12/14.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/15.jpg",
+        "localPath": "assets/media/full/2014/12/15.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/16.jpg",
+        "localPath": "assets/media/full/2014/12/16.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/17.jpg",
+        "localPath": "assets/media/full/2014/12/17.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/18.jpg",
+        "localPath": "assets/media/full/2014/12/18.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/19.jpg",
+        "localPath": "assets/media/full/2014/12/19.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/20.jpg",
+        "localPath": "assets/media/full/2014/12/20.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/21.jpg",
+        "localPath": "assets/media/full/2014/12/21.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/22.jpg",
+        "localPath": "assets/media/full/2014/12/22.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/23.jpg",
+        "localPath": "assets/media/full/2014/12/23.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/24.jpg",
+        "localPath": "assets/media/full/2014/12/24.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/25.jpg",
+        "localPath": "assets/media/full/2014/12/25.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/26.jpg",
+        "localPath": "assets/media/full/2014/12/26.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/27.jpg",
+        "localPath": "assets/media/full/2014/12/27.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/28.jpg",
+        "localPath": "assets/media/full/2014/12/28.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/29.jpg",
+        "localPath": "assets/media/full/2014/12/29.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/30.jpg",
+        "localPath": "assets/media/full/2014/12/30.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/31.jpg",
+        "localPath": "assets/media/full/2014/12/31.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/32.jpg",
+        "localPath": "assets/media/full/2014/12/32.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/33.jpg",
+        "localPath": "assets/media/full/2014/12/33.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/34.jpg",
+        "localPath": "assets/media/full/2014/12/34.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/35.jpg",
+        "localPath": "assets/media/full/2014/12/35.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/36.jpg",
+        "localPath": "assets/media/full/2014/12/36.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/37.jpg",
+        "localPath": "assets/media/full/2014/12/37.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/38.jpg",
+        "localPath": "assets/media/full/2014/12/38.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/39.jpg",
+        "localPath": "assets/media/full/2014/12/39.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/40.jpg",
+        "localPath": "assets/media/full/2014/12/40.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/41.jpg",
+        "localPath": "assets/media/full/2014/12/41.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/42.jpg",
+        "localPath": "assets/media/full/2014/12/42.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/43.jpg",
+        "localPath": "assets/media/full/2014/12/43.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/44.jpg",
+        "localPath": "assets/media/full/2014/12/44.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/45.jpg",
+        "localPath": "assets/media/full/2014/12/45.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/46.jpg",
+        "localPath": "assets/media/full/2014/12/46.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/47.jpg",
+        "localPath": "assets/media/full/2014/12/47.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/48.jpg",
+        "localPath": "assets/media/full/2014/12/48.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/49.jpg",
+        "localPath": "assets/media/full/2014/12/49.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/50.jpg",
+        "localPath": "assets/media/full/2014/12/50.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/51.jpg",
+        "localPath": "assets/media/full/2014/12/51.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/52.jpg",
+        "localPath": "assets/media/full/2014/12/52.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/53.jpg",
+        "localPath": "assets/media/full/2014/12/53.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/54.jpg",
+        "localPath": "assets/media/full/2014/12/54.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/55.jpg",
+        "localPath": "assets/media/full/2014/12/55.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/56.jpg",
+        "localPath": "assets/media/full/2014/12/56.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/57.jpg",
+        "localPath": "assets/media/full/2014/12/57.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/58.jpg",
+        "localPath": "assets/media/full/2014/12/58.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/59.jpg",
+        "localPath": "assets/media/full/2014/12/59.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/60.jpg",
+        "localPath": "assets/media/full/2014/12/60.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/61.jpg",
+        "localPath": "assets/media/full/2014/12/61.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/62.jpg",
+        "localPath": "assets/media/full/2014/12/62.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/63.jpg",
+        "localPath": "assets/media/full/2014/12/63.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/64.jpg",
+        "localPath": "assets/media/full/2014/12/64.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/65.jpg",
+        "localPath": "assets/media/full/2014/12/65.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/66.jpg",
+        "localPath": "assets/media/full/2014/12/66.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/67.jpg",
+        "localPath": "assets/media/full/2014/12/67.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/68.jpg",
+        "localPath": "assets/media/full/2014/12/68.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/69.jpg",
+        "localPath": "assets/media/full/2014/12/69.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/70.jpg",
+        "localPath": "assets/media/full/2014/12/70.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/71.jpg",
+        "localPath": "assets/media/full/2014/12/71.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/72.jpg",
+        "localPath": "assets/media/full/2014/12/72.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/73.jpg",
+        "localPath": "assets/media/full/2014/12/73.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/74.jpg",
+        "localPath": "assets/media/full/2014/12/74.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/75.jpg",
+        "localPath": "assets/media/full/2014/12/75.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/76.jpg",
+        "localPath": "assets/media/full/2014/12/76.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/77.jpg",
+        "localPath": "assets/media/full/2014/12/77.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/78.jpg",
+        "localPath": "assets/media/full/2014/12/78.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/79.jpg",
+        "localPath": "assets/media/full/2014/12/79.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/80.jpg",
+        "localPath": "assets/media/full/2014/12/80.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/81.jpg",
+        "localPath": "assets/media/full/2014/12/81.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/82.jpg",
+        "localPath": "assets/media/full/2014/12/82.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/83.jpg",
+        "localPath": "assets/media/full/2014/12/83.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/84.jpg",
+        "localPath": "assets/media/full/2014/12/84.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/85.jpg",
+        "localPath": "assets/media/full/2014/12/85.jpg"
+      }
+    ],
+    "thumbnails": [
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/01-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/01-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/02-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/02-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/03-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/03-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/04-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/04-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/05-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/05-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/06-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/06-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/7-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/7-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/06/protocoale-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/06/protocoale-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242107-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242107-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242108-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242108-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242112-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242112-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242113-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242113-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242114-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242114-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242116-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242116-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242117-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242117-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242118-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242118-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242119-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242119-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242121-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242121-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242124-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242124-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242125-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242125-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242126-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242126-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P1242128-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P1242128-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063707-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063707-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063713-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063713-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063716-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063716-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063720-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063720-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063722-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063722-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063725-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063725-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063727-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063727-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063730-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063730-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063731-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063731-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063736-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063736-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063739-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063739-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063743-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063743-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063747-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063747-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063749-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063749-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063752-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063752-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063754-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063754-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063756-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063756-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063758-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063758-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063760-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063760-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063762-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063762-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063764-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063764-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063768-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063768-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063771-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063771-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063774-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063774-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063776-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063776-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063778-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063778-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063780-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063780-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063782-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063782-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063784-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063784-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063786-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063786-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063789-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063789-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063793-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063793-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063795-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063795-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063797-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063797-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063856-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063856-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063858-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063858-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063861-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063861-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063866-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063866-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063871-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063871-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/P3063877-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/P3063877-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211369-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211369-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211371-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211371-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211385-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211385-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211389-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211389-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211391-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211391-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211393-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211393-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211396-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211396-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211398-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211398-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211399-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211399-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211404-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211404-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2013/07/PC211410-Custom-150x150.jpg",
+        "localPath": "assets/media/thumbs/2013/07/PC211410-Custom-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/01-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/01-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/02-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/02-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/03-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/03-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/04-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/04-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/05-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/05-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/06-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/06-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/07-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/07-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/08-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/08-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/09-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/09-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/10-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/10-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/11-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/11-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/12-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/12-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/13-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/13-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/14-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/14-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/15-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/15-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/16-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/16-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/17-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/17-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/18-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/18-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/19-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/19-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/20-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/20-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/21-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/21-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/22-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/22-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/23-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/23-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/24-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/24-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/25-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/25-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/26-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/26-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/27-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/27-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/28-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/28-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/29-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/29-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/30-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/30-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/31-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/31-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/32-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/32-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/33-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/33-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/34-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/34-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/35-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/35-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/36-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/36-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/37-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/37-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/38-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/38-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/39-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/39-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/40-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/40-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/41-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/41-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/42-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/42-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/43-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/43-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/44-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/44-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/45-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/45-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/46-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/46-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/47-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/47-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/48-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/48-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/49-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/49-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/50-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/50-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/51-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/51-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/52-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/52-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/53-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/53-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/54-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/54-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/55-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/55-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/56-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/56-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/57-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/57-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/58-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/58-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/59-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/59-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/60-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/60-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/61-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/61-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/62-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/62-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/63-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/63-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/64-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/64-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/65-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/65-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/66-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/66-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/67-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/67-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/68-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/68-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/69-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/69-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/70-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/70-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/71-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/71-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/72-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/72-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/73-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/73-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/74-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/74-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/75-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/75-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/76-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/76-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/77-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/77-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/78-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/78-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/79-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/79-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/80-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/80-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/81-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/81-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/82-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/82-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/83-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/83-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/84-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/84-150x150.jpg"
+      },
+      {
+        "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2014/12/85-150x150.jpg",
+        "localPath": "assets/media/thumbs/2014/12/85-150x150.jpg"
+      }
+    ]
+  },
+  "documents": [
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/documente/statut.pdf",
+      "localPath": "assets/documents/statut.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2012/11/Codul-Muncii-republicat.pdf",
+      "localPath": "assets/documents/Codul-Muncii-republicat.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2012/11/Legea-Educatiei-Nationale.pdf",
+      "localPath": "assets/documents/Legea-Educatiei-Nationale.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2012/11/LegeaDialoguluiSocial0322.pdf",
+      "localPath": "assets/documents/LegeaDialoguluiSocial0322.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2012/11/Noul-Cod-civil.pdf",
+      "localPath": "assets/documents/Noul-Cod-civil.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/1-memoriu-minister.pdf",
+      "localPath": "assets/documents/1-memoriu-minister.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/2-raspuns-minister.pdf",
+      "localPath": "assets/documents/2-raspuns-minister.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/2017.pdf",
+      "localPath": "assets/documents/2017.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/3-adresa-senat.pdf",
+      "localPath": "assets/documents/3-adresa-senat.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/4-solicitare-raspuns-naveta.pdf",
+      "localPath": "assets/documents/4-solicitare-raspuns-naveta.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/completare-raspuns-conducere.pdf",
+      "localPath": "assets/documents/completare-raspuns-conducere.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/Comunicat-de-presa-Alma-Mater.pdf",
+      "localPath": "assets/documents/Comunicat-de-presa-Alma-Mater.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/doctoratminister.pdf",
+      "localPath": "assets/documents/doctoratminister.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/hs201_Part1.pdf",
+      "localPath": "assets/documents/hs201_Part1.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/memoriu-spor-de-doctorat-2015.pdf",
+      "localPath": "assets/documents/memoriu-spor-de-doctorat-2015.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/memoriu-vouchere-de-vacanta-2015.pdf",
+      "localPath": "assets/documents/memoriu-vouchere-de-vacanta-2015.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/protest.pdf",
+      "localPath": "assets/documents/protest.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/raspuns-conducere.pdf",
+      "localPath": "assets/documents/raspuns-conducere.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/Scrisoare-deschisa-Cartel-Alfa.pdf",
+      "localPath": "assets/documents/Scrisoare-deschisa-Cartel-Alfa.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/Scrisori-Rectori-Legea-71_Part1.pdf",
+      "localPath": "assets/documents/Scrisori-Rectori-Legea-71_Part1.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/SKM_C284e17022416300.pdf",
+      "localPath": "assets/documents/SKM_C284e17022416300.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/spor-doctorat.pdf",
+      "localPath": "assets/documents/spor-doctorat.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/vouchere-de-vacanta-2017.pdf",
+      "localPath": "assets/documents/vouchere-de-vacanta-2017.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/voucheredevacanta-OVIDIUS.pdf",
+      "localPath": "assets/documents/voucheredevacanta-OVIDIUS.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2016/01/vouchereUMFTIRGUMURES.pdf",
+      "localPath": "assets/documents/vouchereUMFTIRGUMURES.pdf"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2018/11/Adeziune-SUOC-cu-consimtamant-RGPD.docx",
+      "localPath": "assets/documents/Adeziune-SUOC-cu-consimtamant-RGPD.docx"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2022/06/Candidaturi-depuse-pt-AG-30-06-2022.docx",
+      "localPath": "assets/documents/Candidaturi-depuse-pt-AG-30-06-2022.docx"
+    },
+    {
+      "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/uploads/2022/06/CONVOCATOR.pdf",
+      "localPath": "assets/documents/CONVOCATOR.pdf"
+    }
+  ],
+  "brand": {
+    "sourceUrl": "https://sindicat.univ-ovidius.ro/wp-content/themes/accord-10/images/bannerbg.png",
+    "localPath": "assets/images/brand/bannerbg.png"
+  },
+  "identity": {
+    "universityLogo": {
+      "sourceUrl": "https://www.univ-ovidius.ro/wp-content/uploads/2025/12/Logo-White-png.webp",
+      "localPath": "assets/images/brand/uoc-logo.webp"
+    },
+    "bannerArtwork": {
+      "localPath": "assets/images/brand/suoc-identity-banner.png"
+    }
+  },
+  "externalLinks": [
+    "http://academica.ase.ro/images/Anunturi/afisconsultatiiase.doc",
+    "http://academica.ase.ro/images/Anunturi/anuntcuantumcotizatiealmamater4062013.jpg",
+    "http://academica.ase.ro/images/Anunturi/comunicatcartealfa24092014.pdf",
+    "http://academica.ase.ro/images/Anunturi/etucepressreleaseonfutureofteachingprofession.pdf",
+    "http://academica.ase.ro/images/Anunturi/informarevizitaclujfnsalmamater.pdf",
+    "http://academica.ase.ro/images/Anunturi/jointdeclarationondoctoraltrainingineurope2014_11.pdf",
+    "http://academica.ase.ro/images/Anunturi/listareprezentativitaticonfederatiisindicalesipatronale23062014.pdf",
+    "http://academica.ase.ro/images/Anunturi/pmmodificarelds2072013.pdf",
+    "http://academica.ase.ro/images/Anunturi/procedura2014dereinnoireaavizelorsinteza.pdf",
+    "http://academica.ase.ro/images/Anunturi/raportinscrisireprezentantiacademica2014.doc",
+    "http://academica.ase.ro/images/Anunturi/ro_loi_mpef_mti5martie.pdf",
+    "http://academica.ase.ro/images/Anunturi/scrisoarecatrepsd.pdf",
+    "http://academica.ase.ro/images/Anunturi/scrisoaredeschisamfpcsd2014vi23.pdf",
+    "http://academica.ase.ro/images/Legislatie/legea221_2008.pdf",
+    "http://alegeri2014.fundatia.ro/bani-europeni-pentru-mita-electorala-in-romania/",
+    "http://cursdeguvernare.ro/wp-content/uploads/2014/09/document-2014-09-20-18145861-0-raspunsul-avocatului-poporului-privire-sesizarea-ccr-privinta-oug-49-2014.pdf",
+    "http://date.gov.ro/dataset/informatii-derulare-fonduri-europene-smis",
+    "http://discutii.mfinante.ro/static/10/Mfp/buget2015/Ministerul_Educatiei_Cercetarii_Stiintifice.pdf",
+    "http://discutii.mfinante.ro/static/10/Mfp/buget2016/Ministerul_Educatiei_Nationale.pdf",
+    "http://discutii.mfinante.ro/static/10/Mfp/transparenta/proiect_buget2016/Raportbuget2016_4decembrie2015.pdf",
+    "http://ec.europa.eu/cvm/docs/com_2015_35_ro.pdf",
+    "http://ec.europa.eu/cvm/docs/swd_2015_8_en.pdf",
+    "http://ec.europa.eu/cvm/docs/swd_2015_8_ro.pdf",
+    "http://ec.europa.eu/europe2020/europe-2020-in-your-country/romania/index_ro.htm",
+    "http://ec.europa.eu/europe2020/index_ro.htm",
+    "http://ec.europa.eu/europe2020/pdf/csr2014/csr2014_romania_ro.pdf",
+    "http://ec.europa.eu/europe2020/pdf/csr2014/nrp2014_romania_ro.pdf",
+    "http://ec.europa.eu/trade/policy/in-focus/ceta/",
+    "http://ec.europa.eu/trade/policy/in-focus/tisa/",
+    "http://ec.europa.eu/trade/policy/in-focus/ttip/",
+    "http://eige.europa.eu/sites/default/files/documents/mh0215090enn.pdf",
+    "http://etuce.homestead.com/About_ETUCE/ETUCECommittee2013-2016rev_October2013.pdf",
+    "http://etuce.homestead.com/Statements/2013/10_mesaje_cheie_-RO.pdf",
+    "http://etuce.homestead.com/Statements/2014/ETUCE_Position_on_EU_Strategic_Framework_on_HS_2014_-_2020.pdf",
+    "http://forum.portal.edu.ro/index.php?s=9bb302ab354b175c1931fce8946810f2&act=Attach&type=post&id=2391439",
+    "http://gov.ro/fisiere/stiri_fisiere/Memorandum_grup_de_lucru_interministerial_politici_de_ocupare_pentru_pas....pdf",
+    "http://hdr.undp.org/en/countries/profiles/ROU",
+    "http://lege5.ro/Gratuit/gqydamztgu/legea-nr-91-2014-privind-acordarea-unei-zile-lucratoare-libere-pe-an-pentru-ingrijirea-sanatatii-copilului",
+    "http://lege5.ro/Gratuit/gqydamzzgq/hotararea-nr-542-2014-privind-suplimentarea-bugetului-ministerului-finantelor-publice-pentru-plata-titlurilor-executorii-prevazute-de-ordonanta-de-urgenta-a-guvernului-nr-71-2009-privind-plata-unor-su",
+    "http://lege5.ro/Gratuit/gqydinbwgq/ordinul-nr-4542-2014-pentru-aprobarea-metodologiei-cadru-privind-organizarea-si-functionarea-invatamantului-tertiar-nonuniversitar-organizat-la-nivelul-colegiilor-din-cadrul-institutiilor-de-invataman",
+    "http://lege5.ro/MonitorOficial/monge2dmnbsgm/monitorul-oficial-partea-i-nr-396-29-05-2014",
+    "http://legislatie.just.ro/",
+    "http://legislatie.just.ro/Public/DetaliiDocument/140944#id_artA276",
+    "http://legislatie.just.ro/Public/DetaliiDocument/163182",
+    "http://legislatie.just.ro/Public/DetaliiDocument/163184",
+    "http://legislatie.just.ro/Public/DetaliiDocument/163954",
+    "http://legislatie.just.ro/Public/DetaliiDocument/164810",
+    "http://legislatie.just.ro/Public/DetaliiDocument/164817",
+    "http://legislatie.just.ro/Public/DetaliiDocument/164830",
+    "http://legislatie.just.ro/Public/DetaliiDocument/165840",
+    "http://legislatie.just.ro/Public/DetaliiDocument/167000",
+    "http://legislatie.just.ro/Public/DetaliiDocument/170239",
+    "http://legislatie.just.ro/Public/DetaliiDocument/186276",
+    "http://legislatie.just.ro/Public/DetaliiDocument/186346",
+    "http://legislatie.just.ro/Public/DetaliiDocument/186351",
+    "http://legislatie.just.ro/Public/DetaliiDocument/186904",
+    "http://legislatie.just.ro/Public/DetaliiDocumentAfis/167088",
+    "http://legislatie.just.ro/Public/DetaliiDocumentAfis/167809",
+    "http://legislatie.just.ro/Public/DetaliiDocumentAfis/169306",
+    "http://news.ubbcluj.ro/noutati/rectorii-din-consortiul-universitaria-au-semnat-o-noua-rezolutie-pentru-educatie/",
+    "http://portal.just.ro/301/Documents/Ghid%20practic%20pr%20civ%20civ%20familiei%20muncii%20cu%20decizia%20CC.pdf",
+    "http://portal.just.ro/301/Documents/Ghid%20practic%20pr%20penala%20penal.pdf",
+    "http://ro.scribd.com/doc/273582886/Propuneri-cu-Titlu-de-draft-la-Proiectul-noii-Legi-a-Educatiei",
+    "http://sar.org.ro/raportul-anual-de-analiza-si-prognoza-romania-2016/",
+    "http://www.almamater.ro/",
+    "http://www.almamater.ro/bex_2015.htm",
+    "http://www.almamater.ro/declaratie_rcbobulescu.htm",
+    "http://www.almamater.ro/dinpoza.php?poza=http://www.almamater.ro/docs/2013/feb/2013.02.15ComunicatFNSAlmaMater.jpg&t=Comunicat%20EXECUTARI%20SILITE%20Universitati%20Legea%20221",
+    "http://www.almamater.ro/docs/2013/mai/rezolutie_congres_5_10-11mai2013.pdf",
+    "http://www.almamater.ro/docs/2013/mar/Rezolutie23martie2013.pdf",
+    "http://www.almamater.ro/docs/2013/oct/5oct.pdf",
+    "http://www.almamater.ro/docs/2013/oct/declaratia_comuna_semnata.pdf",
+    "http://www.almamater.ro/docs/2013/sep/rezolutieCNC-FNS_AM7sept2013.pdf",
+    "http://www.almamater.ro/docs/2014/apr/adresa_prim_ministru_ponta.pdf",
+    "http://www.almamater.ro/docs/2014/apr/rezolutiealmamater2014.04.26.pdf",
+    "http://www.almamater.ro/docs/2014/dec/Rezol_dec14.pdf",
+    "http://www.almamater.ro/docs/2014/ian/RezolutieCNC11ian2014.jpg",
+    "http://www.almamater.ro/docs/2014/iul/Ordonanta_de_urgenta_nr_49_din_2014-LEN.pdf",
+    "http://www.almamater.ro/docs/2014/iul/Politizare_vs_sindicalizare_TI_6iunie2014.pdf",
+    "http://www.almamater.ro/docs/2014/iul/Rezolutie_iulie_2014.pdf",
+    "http://www.almamater.ro/docs/2014/nov/Acord_Nr.%2010232_27oct2014.pdf",
+    "http://www.almamater.ro/docs/2014/nov/OMEN_Nr_4871_2014.pdf",
+    "http://www.almamater.ro/docs/2014/nov/Rezolutie_CNC18.10.2014.pdf",
+    "http://www.almamater.ro/docs/2014/oct/ETUCE_Appeal_on_HER.pdf",
+    "http://www.almamater.ro/docs/2014/sep/rezolutie_iasi.pdf",
+    "http://www.almamater.ro/docs/2014/sep/scrisoare_catre_prim-ministrul_romaniei.pdf",
+    "http://www.almamater.ro/docs/2015/dec/RezolutieCNC-FNS-AM12dec2015.pdf",
+    "http://www.almamater.ro/docs/2015/dec/Scrisoare_catre_C.N.R.pdf",
+    "http://www.almamater.ro/docs/2015/ian/invitatie.pdf",
+    "http://www.almamater.ro/docs/2015/iun/Rezolutie3iunie2015.pdf",
+    "http://www.almamater.ro/docs/2015/mar/invatamantul_nu_este_o_marfa.pdf",
+    "http://www.almamater.ro/docs/2015/nov/Scrisoare_comuna_adresata_Presedintelui_Romaniei.pdf",
+    "http://www.almamater.ro/docs/2015/sep/iohannis.pdf",
+    "http://www.almamater.ro/docs/2015/sep/rezolutie12sept2015.pdf",
+    "http://www.almamater.ro/docs/2016/feb/Scrisoare_deschisa_PM_%20salarizare_bugetari_22-II-2016.pdf",
+    "http://www.almamater.ro/docs/2016/mar/Rezolutie_CNC_Alma_Mater26mar2016.pdf",
+    "http://www.almamater.ro/docs/2017/ian/L_250_prop_ALMA_MATER_11_Ian_17.xls",
+    "http://www.almamater.ro/docs/2017/mar/RezolutiaCNC.A-M.2017.11.03.pdf",
+    "http://www.almamater.ro/money_money_money_legea_221.htm",
+    "http://www.avocatnet.ro/content/articles/id_33656/OUG-nr-77-2013-asigurarea-functionalitatii-administratiei-publice-locale-a-numarului-de-posturi-si-reducerea-cheltuielilor-la-institutiile-si-autoritatile-publice.html",
+    "http://www.avocatnet.ro/content/articles/id_37649/Indemnizatia-pentru-ingrijirea-copilului-bolnav-Cum-poti-beneficia-de-ea.html",
+    "http://www.cartel-alfa.ro/default.asp?nod=20&info=48076",
+    "http://www.cartel-alfa.ro/default.asp?nod=36&info=48087",
+    "http://www.ccr.ro/ccrSearch/MainSearch/SearchForm.aspx",
+    "http://www.cdep.ro/pls/parlam/interpelari.detalii?idi=42990&idl=1",
+    "http://www.consiliulfiscal.ro/Opinie-buget-2015-I.pdf",
+    "http://www.consiliulfiscal.ro/OpinieBuget-2015.pdf",
+    "http://www.csee-etuce.org/images/attachments/StatementTTIPen.pdf",
+    "http://www.csee-etuce.org/images/BackgroundDocs/background-document-TTIP-training.pdf",
+    "http://www.csee-etuce.org/news/archive/516-budget-for-education-differences-between-european-countries-have-increased-shows-latest-eurydice-report",
+    "http://www.csee-etuce.org/news/archive/578-new-eurydice-report-new-approaches-to-the-education-evaluation-in-europe",
+    "http://www.csee-etuce.org/news/archive/794-essde-higher-education-research-working-group-produces-report-and-declaration-in-support-of-early-career-researchers",
+    "http://www.dreptonline.ro/legislatie/legea_94_2014_aprobare_oug_8_2009_acordare_tichete_de_vacanta.php",
+    "http://www.edu.ro/index.php/articles/21663",
+    "http://www.edu.ro/index.php/articles/21834",
+    "http://www.edu.ro/index.php/articles/21868",
+    "http://www.edu.ro/index.php/articles/22135",
+    "http://www.flickr.com/photos/etuce/12222223473/",
+    "http://www.flickr.com/photos/etuce/9996996053/",
+    "http://www.flickr.com/photos/etuce/9997090936/",
+    "http://www.flickr.com/photos/etuce/9997168883/",
+    "http://www.fonduri-ue.ro/baza-de-date-proiecte-contractate",
+    "http://www.legex.ro/Legea-92-2014-134755.aspx",
+    "http://www.mediafax.ro/social/avocatul-poporului-se-va-pronunta-privind-modificarea-legii-educatiei-dupa-raspunsul-sindicatelor-12993645",
+    "http://www.mfinante.ro/buget2015.html?pagina=domenii",
+    "http://www.mfinante.ro/buget2017.html?pagina=domenii",
+    "http://www.monitoruloficial.ro/RO/article--e-Monitor--339.html",
+    "http://www.presidency.ro/ro/presedinte/decrete-si-acte-oficiale",
+    "http://www.privesc.eu/Arhiva/33216/Masa-rotunda-cu-tema--Cum-facem-din-integrarea-europeana-un-succes-",
+    "http://www.research.ro/ro/articol/3789/programe-interna-ionale-orizont-2020-info-day-h2020-communication-campaign-4-martie-2016",
+    "http://www.romaniacurata.ro/spaw2/uploads/docs/Comunicat_posibilitate_desfiintare_UEFISCDI%20%281%29.pdf",
+    "http://www.romaniacurata.ro/spaw2/uploads/docs/scrarcponta.pdf",
+    "http://www.scj.ro/745/Sedinte-si-dosare",
+    "http://www.tribunainvatamantului.ro/educatia-drept-fundamental-sau-subiect-de-comercializare/",
+    "http://www.tribunainvatamantului.ro/invatamantul-la-rascruce-o-dezbatere-esentiala-care-priveste-viitorul-europei/",
+    "http://www.tribunainvatamantului.ro/invatamantul-nu-este-o-marfa/",
+    "http://www.tribunainvatamantului.ro/nota-privind-aplicarea-prevederilor-legii-nr-712015-pentru-aprobarea-ordonantei-de-urgenta-a-guvernului-nr-832014-privind-salarizarea-personalului-platit-din-fonduri-publice-in-anul-2015-precum/",
+    "https://ec.europa.eu/info/files/progress-report-romania-2017-com-2017-44_en",
+    "https://ec.europa.eu/info/files/technical-report-romania-2017-swd-2017-25_en",
+    "https://ec.europa.eu/info/publications/2017-european-semester-country-reports_en",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2!278&authkey=!AAaVLiC_LGIZHJU&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2!319&authkey=!AHPQsyWDceM9u6E&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2!337&authkey=!AEux8tyCSlda-II&ithint=folder%2cjpg",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2!356&authkey=!ADUR6_h8o2ki7B0&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2!357&authkey=!AO1IeXF8ZcIcyRA&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21230&authkey=%21ALJWhGg5Xi3CaHI&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21231&authkey=%21AIksSvzgT0OiUhk&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21266&authkey=%21AKUdFyjIBo3bnPc&ithint=file%2cdocx",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21269&authkey=%21AOfWC_3eTnEgC9g&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21270&authkey=%21AKv5H0xfN9eFp8o&ithint=file%2cpdf",
+    "https://onedrive.live.com/redir?resid=9EC98145851DD9E2%21281&authkey=%21AMI1xB9KJqMw5fo&ithint=file%2cpdf",
+    "https://webgate.ec.europa.eu/fpfis/mwikis/eurydice/images/8/8f/194EN.pdf",
+    "https://www.ccr.ro/files/statements/Comunicat_de_presa_20_oct_2015.pdf",
+    "https://www.cnpp.ro/web/10180/211",
+    "https://www.youtube.com/watch?v=-h7ysmY_wPo&feature=youtu.be",
+    "https://www.youtube.com/watch?v=B9C4kg_zNKM&feature=youtu.be",
+    "https://www.youtube.com/watch?v=d-ffx81Xcks&feature=youtu.be",
+    "https://www.youtube.com/watch?v=JSj-ot0FgSI&feature=youtu.be",
+    "https://www.youtube.com/watch?v=lIgnsaXTrRU&feature=youtu.be",
+    "https://www.youtube.com/watch?v=NuAxyXn7ZUU&feature=youtu.be"
+  ],
+  "footer": "Created and maintained by <a href=\"https://zeespire.com\" target=\"_blank\" rel=\"noopener noreferrer\">ZeeSpire Software Solutions</a>.",
+  "contact": {
+    "address": "str. Ion Vodă nr. 58, sala P03",
+    "email": "suoc@sindicat.univ-ovidius.ro"
+  }
+}

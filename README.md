@@ -1,0 +1,3 @@
+# SUOC
+
+Open `index.html`.
