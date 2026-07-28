@@ -44,11 +44,13 @@ test('every static reference resolves and external links preserve the manifest',
   const externalLinks = new Set();
   for (const route of manifest.routes) {
     const html = await readFile(resolve(projectRoot, route.file), 'utf8');
-    assert.doesNotMatch(html, /(?:https?:)?\/\/sindicat\.univ-ovidius\.ro/i);
+    // The archive itself stays local: the production origin may only appear in head SEO metadata.
+    assert.doesNotMatch(html.slice(html.indexOf('<body')), /(?:https?:)?\/\/sindicat\.univ-ovidius\.ro/i);
     assert.doesNotMatch(html, /(?:href|src)=(?:"|')[^"']*(?:\/author\/admin\/?|author-admin)/i);
 
     for (const href of tagAttributes(html, ['href'])) {
       if (/^(?:mailto:|tel:|javascript:|#)/i.test(href)) continue;
+      if (href.startsWith('https://sindicat.univ-ovidius.ro/')) continue;
       if (/^https?:/i.test(href)) {
         externalLinks.add(href);
         continue;

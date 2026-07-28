@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sindicat.univ-ovidius.ro/sitemap.xml

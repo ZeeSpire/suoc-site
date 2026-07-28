@@ -59,6 +59,77 @@ const startSectionActionDefinitions = [
   },
 ];
 
+const siteOrigin = 'https://sindicat.univ-ovidius.ro';
+const siteName = 'Sindicatul Universității Ovidius din Constanța';
+const ogImagePath = 'assets/images/brand/suoc-og-image.jpg';
+
+const seoDefinitions = {
+  start: {
+    title: siteName,
+    description: 'SUOC, sindicatul angajaților Universității Ovidius din Constanța: alegeri, convocatoare, noutăți, legislație și acțiunile sindicatului pentru membri.',
+  },
+  'despre-noi': {
+    description: 'Istoricul și statutul SUOC, organizație profesională cu personalitate juridică înființată de membrii fondatori în Universitatea Ovidius din Constanța.',
+  },
+  obiective: {
+    description: 'Obiectivele SUOC: respectarea legilor de salarizare, plata muncii suplimentare, apărarea dreptului la muncă și aplicarea contractului colectiv de muncă.',
+  },
+  conducere: {
+    description: 'Organele de conducere ale SUOC — Adunarea Generală, Consiliul Director și Biroul Executiv — și componența actuală a Biroului Executiv.',
+  },
+  afilieri: {
+    description: 'SUOC este afiliat la Federația Națională Sindicală „Alma Mater” și este reprezentat în Biroul Executiv al federației prin Jeflea Florin Victor.',
+  },
+  legislatie: {
+    description: 'Documente utile membrilor SUOC: statutul sindicatului, legea dialogului social, legea educației naționale, Codul muncii, Codul civil și modelul de adeziune.',
+  },
+  contact: {
+    description: 'Contactează SUOC: sediul din str. Ion Vodă nr. 58, sala P03, Constanța, și adresa de e-mail suoc@sindicat.univ-ovidius.ro.',
+  },
+  evenimente: {
+    description: 'Arhiva evenimentelor organizate de SUOC pentru membri și familiile lor: spectacole de Crăciun, serbări pentru copii, mese festive și întâlniri colegiale.',
+  },
+  noutati: {
+    description: 'Noutăți și informări SUOC pentru angajații Universității Ovidius din Constanța: salarizare, drepturi, sejururi și acțiuni sindicale.',
+  },
+  'oug-9-2017-personal-nedidactic': {
+    title: 'Majorare 15% salarii personal nedidactic (OUG 9/2017)',
+    description: 'Majorarea cu 15% a salariilor de bază ale personalului nedidactic din învățământul superior, în vigoare din ianuarie 2017 conform OUG 9/2017.',
+  },
+  'oug-17-2017-asimilare-functii': {
+    title: 'Asimilarea funcțiilor pentru salarizare (OUG 17/2017)',
+    description: 'Funcțiile care nu se regăsesc în tabelul de salarizare se asimilează, pentru salarizare, cu funcția de muncitor calificat, conform OUG 17/2017.',
+  },
+  'spectacol-craciun-2014': {
+    title: 'Spectacol de Crăciun, decembrie 2014',
+    description: 'Spectacolul de Crăciun oferit de Sindicatul Universității Ovidius din Constanța membrilor săi și copiilor acestora, în decembrie 2014.',
+  },
+  'sejur-profesori-2013': {
+    title: 'Sejur de 7 zile pentru profesori (2013)',
+    description: 'Acordul între universități care oferă cadrelor didactice ale Universității „Ovidius” din Constanța sejururi de 7 zile în centrele partenere, 2013.',
+  },
+  'masa-festiva-8-martie-2013': {
+    title: 'Masă festivă de 8 Martie (2013)',
+    description: 'Masa festivă organizată de SUOC pentru femeile din Universitatea „Ovidius” din Constanța, cu ocazia zilei de 8 Martie 2013.',
+  },
+  'serbare-craciun-copii-2013': {
+    title: 'Serbare de Crăciun pentru copiii membrilor (2013)',
+    description: 'Serbarea de Crăciun organizată de SUOC pentru copiii membrilor de sindicat din Universitatea „Ovidius” din Constanța.',
+  },
+  'ziua-unirii-2013': {
+    title: 'Întâlnire de Ziua Unirii (2013)',
+    description: 'Întâlnirea profesorilor Universității „Ovidius” din Constanța, organizată de SUOC cu ocazia Zilei Unirii, 24 ianuarie 2013.',
+  },
+  'cotizatie-2012': {
+    title: 'Cotizația de membru SUOC (2012)',
+    description: 'Consiliul Director a stabilit cotizația de membru la 1% din salariul de încadrare, conform art. 41 din Statutul SUOC, în ședința din 22.11.2012.',
+  },
+  'campanie-lavinia-2012': {
+    title: 'Campanie umanitară pentru o studentă (2012)',
+    description: 'Campania de strângere de fonduri inițiată de SUOC pentru transplantul necesar unei studente a Facultății de Farmacie, bolnavă de leucemie.',
+  },
+};
+
 async function readJson(file) {
   return JSON.parse(await readFile(resolve(projectRoot, file), 'utf8'));
 }
@@ -832,6 +903,114 @@ function lightboxHtml() {
   </dialog>`;
 }
 
+function seoFor(route) {
+  const definition = seoDefinitions[route.id];
+  if (!definition) throw new Error(`Missing SEO definition: ${route.id}`);
+  return { title: definition.title ?? route.title, description: definition.description };
+}
+
+function canonicalUrl(file) {
+  return file === 'index.html' ? `${siteOrigin}/` : `${siteOrigin}/${file}`;
+}
+
+function routePost(route) {
+  return source.posts.find((entry) => entry.slug === route.sourceSlug);
+}
+
+function lastModified(route) {
+  if (route.type === 'post') return routePost(route).modified.slice(0, 10);
+  if (route.type === 'archive') {
+    return source.posts
+      .filter((post) => post.categoryId === route.categoryId)
+      .map((post) => post.date)
+      .sort()
+      .at(-1);
+  }
+  return source.pages.find((entry) => entry.slug === route.sourceSlug).modified.slice(0, 10);
+}
+
+function structuredData(route) {
+  const publisher = { '@type': 'Organization', name: siteName, url: `${siteOrigin}/` };
+  if (route.id === 'start') {
+    return [{
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: siteName,
+      alternateName: 'SUOC',
+      url: `${siteOrigin}/`,
+      logo: `${siteOrigin}/assets/images/brand/uoc-logo.webp`,
+      email: manifest.contact.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: manifest.contact.address,
+        addressLocality: 'Constanța',
+        addressCountry: 'RO',
+      },
+    }];
+  }
+  if (route.type !== 'post') return [];
+  const post = routePost(route);
+  return [{
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seoFor(route).title,
+    description: seoFor(route).description,
+    datePublished: post.date,
+    dateModified: post.modified.slice(0, 10),
+    mainEntityOfPage: canonicalUrl(route.file),
+    image: `${siteOrigin}/${ogImagePath}`,
+    author: publisher,
+    publisher,
+  }];
+}
+
+function headMetadata(route, outputFile) {
+  const { title, description } = seoFor(route);
+  const canonical = canonicalUrl(route.file);
+  const publishedTime = route.type === 'post'
+    ? `\n  <meta property="article:published_time" content="${routePost(route).date}">`
+    : '';
+  const linkedData = structuredData(route)
+    .map((entry) => `\n  <script type="application/ld+json">${JSON.stringify(entry)}</script>`)
+    .join('');
+  return `<title>${escapeHtml(title)} | SUOC</title>
+  <meta name="description" content="${escapeHtml(description)}">
+  <link rel="canonical" href="${canonical}">
+  <meta property="og:type" content="${route.type === 'post' ? 'article' : 'website'}">
+  <meta property="og:site_name" content="${escapeHtml(siteName)}">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:title" content="${escapeHtml(title)}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${siteOrigin}/${ogImagePath}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sigla Universității Ovidius din Constanța pe fundalul sindicatului SUOC">${publishedTime}
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="${escapeHtml(localHref(outputFile, 'favicon.ico'))}" sizes="32x32">
+  <link rel="icon" type="image/png" href="${escapeHtml(localHref(outputFile, 'assets/images/brand/favicon-192.png'))}" sizes="192x192">
+  <link rel="apple-touch-icon" href="${escapeHtml(localHref(outputFile, 'assets/images/brand/apple-touch-icon.png'))}">${linkedData}`;
+}
+
+function sitemapXml() {
+  const entries = manifest.routes
+    .map((route) => `  <url>\n    <loc>${canonicalUrl(route.file)}</loc>\n    <lastmod>${lastModified(route)}</lastmod>\n  </url>`)
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${entries}
+</urlset>
+`;
+}
+
+function robotsTxt() {
+  return `User-agent: *
+Allow: /
+
+Sitemap: ${siteOrigin}/sitemap.xml
+`;
+}
+
 function renderDocument(route) {
   const outputFile = route.file;
   const body = route.type === 'page'
@@ -850,8 +1029,7 @@ function renderDocument(route) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(route.title)} | SUOC</title>
-  <meta name="description" content="Sindicatul Universității Ovidius din Constanța — SUOC">
+  ${headMetadata(route, outputFile)}
   <link rel="stylesheet" href="${escapeHtml(stylesheet)}">
   <script src="${escapeHtml(searchIndex)}" defer></script>
   <script src="${escapeHtml(siteScript)}" defer></script>
@@ -902,5 +1080,7 @@ for (const route of manifest.routes) {
 
 await mkdir(resolve(projectRoot, 'assets/js'), { recursive: true });
 await writeFile(resolve(projectRoot, 'assets/js/search-index.js'), searchIndexScript());
+await writeFile(resolve(projectRoot, 'sitemap.xml'), sitemapXml());
+await writeFile(resolve(projectRoot, 'robots.txt'), robotsTxt());
 
-console.log(`Generated ${manifest.routes.length} file-safe HTML routes.`);
+console.log(`Generated ${manifest.routes.length} file-safe HTML routes, sitemap.xml and robots.txt.`);

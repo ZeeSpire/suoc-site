@@ -51,7 +51,7 @@ test('all 18 semantic HTML routes preserve their source content and file-safe na
     assert.match(html, /<html\s+lang="ro"/i, `${route.file} must declare Romanian`);
     assert.match(html, /<meta\s+charset="utf-8"/i, `${route.file} must declare UTF-8`);
     assert.match(html, new RegExp(`data-route-id="${route.id}"`));
-    assert.ok(visibleText(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '').includes(route.title));
+    assert.ok(visibleText(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '').includes(route.title));
 
     const navLabels = [...html.matchAll(/data-nav-label="([^"]+)"/g)].map((match) => decodeEntities(match[1]));
     assert.deepEqual(navLabels, manifest.navigation.map((item) => item.label), `${route.file} nav order`);

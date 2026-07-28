@@ -1,13 +1,13 @@
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { test } from 'node:test';
 
 const projectRoot = new URL('../', import.meta.url);
 
-test('GitHub Pages deploys the static root for the SUOC custom domain', async () => {
-  const [workflow, customDomain, gitignore] = await Promise.all([
+test('GitHub Pages deploys the static root to the preview URL while DNS is pending', async () => {
+  const [workflow, gitignore] = await Promise.all([
     readFile(new URL('.github/workflows/pages.yml', projectRoot), 'utf8'),
-    readFile(new URL('CNAME', projectRoot), 'utf8'),
     readFile(new URL('.gitignore', projectRoot), 'utf8'),
   ]);
 
@@ -23,6 +23,9 @@ test('GitHub Pages deploys the static root for the SUOC custom domain', async ()
   assert.match(workflow, /actions\/upload-pages-artifact@v5/);
   assert.match(workflow, /path:\s*["']?\.["']?/);
   assert.match(workflow, /actions\/deploy-pages@v5/);
-  assert.equal(customDomain, 'sindicat.univ-ovidius.ro\n');
+  assert.ok(
+    !existsSync(new URL('CNAME', projectRoot)),
+    'CNAME must stay absent until sindicat.univ-ovidius.ro resolves to GitHub Pages',
+  );
   assert.match(gitignore, /^\.DS_Store$/m);
 });
