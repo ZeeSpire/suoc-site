@@ -1,7 +1,7 @@
 ---
 id: zeespire-footer-credit
 title: ZeeSpire Footer Credit Across Four Sites
-status: active
+status: completed
 created: 2026-07-28
 updated: 2026-07-28
 priority: high
@@ -91,16 +91,16 @@ The implementation has 54 tasks across nineteen feature phases.
 - [x] Every Legislație document card matches the 9rem rendered height of the
   Start section cards at desktop and mobile widths, without clipping titles,
   format labels, or document targets.
-- [ ] GitHub Actions deploys the static repository root to GitHub Pages on
+- [x] GitHub Actions deploys the static repository root to GitHub Pages on
   pushes to `main` and manual dispatch, using the current official Pages
   actions, least-privilege token permissions, and deployment concurrency.
-- [ ] The Pages workflow uses the current Node.js 24-compatible action majors
+- [x] The Pages workflow uses the current Node.js 24-compatible action majors
   without GitHub's Node.js 20 deprecation annotation.
-- [ ] The repository records `sindicat.univ-ovidius.ro` as its only custom
+- [x] The repository records `sindicat.univ-ovidius.ro` as its only custom
   domain and ignores macOS metadata while retaining direct `file://` use.
-- [ ] Each Git repository has one scoped commit pushed to every configured
-  remote; SUOC's missing repository/remotes are resolved explicitly rather
-  than guessed.
+- [x] Each Git repository has scoped commits pushed to every configured remote;
+  SUOC's missing local repository and NAS bare repository are created at the
+  verified sibling paths.
 
 ## Testing Architecture
 
@@ -359,10 +359,11 @@ HTML files from the local filesystem only and make no network requests.
 
 ## Resume Context
 
-> All 54 implementation tasks are complete and the local suite passes 28 tests.
-> Commit the Node.js 24-compatible workflow update, push the identical commit to
-> GitHub and NAS, and verify the second Pages deployment has no annotations.
-> Keep the current WordPress DNS record unchanged until deliberate cutover.
+> All 54 implementation tasks and acceptance criteria are complete. GitHub and
+> NAS contain the same SUOC `main` commit, the Pages workflow deploys
+> successfully without annotations, and GitHub stores the custom domain. The
+> current WordPress A record remains unchanged pending deliberate Cloudflare
+> cutover to the `ZeeSpire.github.io` CNAME target.
 
 ## Decision Log
 
@@ -388,6 +389,8 @@ HTML files from the local filesystem only and make no network requests.
 | 2026-07-28 | Reuse the Noutăți action taxonomy across all four Start sections | Alegeri, Sinteză, and Utile contain the same information types; a shared generated classifier provides consistent affordances without changing section hierarchy, disclosure behavior, or content |
 | 2026-07-28 | Relate the Start selector to Legislație without copying document semantics | A two-column editorial-card grid creates visual cohesion, while `SECȚIUNE` and a downward cue correctly describe in-page navigation rather than downloadable files |
 | 2026-07-28 | Match Legislație to Start by height only | The user requested equal box size; retaining Legislație numbering and file-format metadata preserves its distinct document-library semantics |
+| 2026-07-28 | Keep the live subdomain DNS unchanged during Pages provisioning | The hostname still serves the existing WordPress/nginx site; provisioning GitHub first avoids an unverified DNS or TLS cutover and preserves availability |
+| 2026-07-28 | Upgrade action majors after the first successful deployment | GitHub annotated three older majors for deprecated Node.js 20; current official majors completed the second run with no annotations |
 
 ## TDD Log
 
