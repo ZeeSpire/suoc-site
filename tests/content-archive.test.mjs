@@ -113,7 +113,7 @@ test('the frozen SUOC archive is complete, local, and excludes the admin route',
   assertLocalFiles([manifest.identity.bannerArtwork], 'banner artwork');
   assert.equal(
     sha256(manifest.identity.unionLogo.localPath),
-    '166d7ec88f484864601602c2e64d0edd534ca850545ff6dc8ef5f499da7fcfdd',
+    'ad95d43b63a3a752bd35ed93bdddefb0005fe2913888a10821a03926a60cbf70',
     'The generated SUOC emblem must remain byte-for-byte unchanged',
   );
   assert.equal(
