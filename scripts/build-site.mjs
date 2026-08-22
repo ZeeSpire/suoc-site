@@ -672,7 +672,7 @@ function headerHtml(route, outputFile) {
     <div class="identity-field">
       <img class="identity-field__artwork" data-identity-artwork src="${escapeHtml(localHref(outputFile, manifest.identity.bannerArtwork.localPath))}" alt="" width="1774" height="887">
       <a class="brand" data-internal-link href="${escapeHtml(localHref(outputFile, 'index.html'))}" aria-label="SUOC — pagina principală">
-        <img class="brand__emblem" data-uoc-logo src="${escapeHtml(localHref(outputFile, manifest.identity.universityLogo.localPath))}" alt="Universitatea Ovidius din Constanța" width="1537" height="1537">
+        <img class="brand__emblem" data-suoc-logo src="${escapeHtml(localHref(outputFile, manifest.identity.unionMark.localPath))}" alt="Sigla SUOC" width="1024" height="1024">
         <span class="brand__wordmark" data-brand-title><span class="brand__eyebrow">Sindicatul Universității</span> <span class="brand__name">Ovidius din Constanța</span><span class="brand__acronym">SUOC</span></span>
       </a>
     </div>
@@ -938,7 +938,7 @@ function structuredData(route) {
       name: siteName,
       alternateName: 'SUOC',
       url: `${siteOrigin}/`,
-      logo: `${siteOrigin}/assets/images/brand/uoc-logo.webp`,
+      logo: `${siteOrigin}/${manifest.identity.unionLogo.localPath}`,
       email: manifest.contact.email,
       address: {
         '@type': 'PostalAddress',
@@ -985,7 +985,7 @@ function headMetadata(route, outputFile) {
   <meta property="og:image" content="${siteOrigin}/${ogImagePath}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Sigla Universității Ovidius din Constanța pe fundalul sindicatului SUOC">${publishedTime}
+  <meta property="og:image:alt" content="Sigla SUOC pe fundalul Sindicatului Universității Ovidius din Constanța">${publishedTime}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="${escapeHtml(localHref(outputFile, 'favicon.ico'))}" sizes="32x32">
   <link rel="icon" type="image/png" href="${escapeHtml(localHref(outputFile, 'assets/images/brand/favicon-192.png'))}" sizes="192x192">

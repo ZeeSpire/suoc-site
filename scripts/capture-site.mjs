@@ -329,9 +329,11 @@ async function main() {
     documents,
     brand,
     identity: {
-      universityLogo: {
-        sourceUrl: 'https://www.univ-ovidius.ro/wp-content/uploads/2025/12/Logo-White-png.webp',
-        localPath: 'assets/images/brand/uoc-logo.webp',
+      unionLogo: {
+        localPath: 'assets/images/brand/suoc-logo.png',
+      },
+      unionMark: {
+        localPath: 'assets/images/brand/suoc-mark.png',
       },
       bannerArtwork: {
         localPath: 'assets/images/brand/suoc-identity-banner.png',

@@ -100,24 +100,24 @@ test('desktop identity, navigation, type and reading width match the visual brie
   await context.close();
 });
 
-test('the identity banner combines local artwork, the official logo and live SUOC text', async () => {
+test('the identity banner combines local artwork, the SUOC logo and live organisation text', async () => {
   for (const width of [390, 1440]) {
     const { context, page } = await openLocalPage('index.html', { width, height: 900 });
     const banner = page.locator('.identity-field');
-    const logo = banner.locator('[data-uoc-logo]');
+    const logo = banner.locator('[data-suoc-logo]');
     const artwork = banner.locator('[data-identity-artwork]');
     const title = banner.locator('[data-brand-title]');
 
     assert.equal(await logo.count(), 1);
     assert.equal(await artwork.count(), 1);
     assert.equal(await title.count(), 1);
-    assert.equal(await logo.getAttribute('alt'), 'Universitatea Ovidius din Constanța');
+    assert.equal(await logo.getAttribute('alt'), 'Sigla SUOC');
     assert.equal(await artwork.getAttribute('alt'), '');
     assert.match(await title.textContent(), /Sindicatul Universității Ovidius din Constanța/);
     assert.match(await banner.textContent(), /SUOC/);
 
     const layout = await banner.evaluate((element) => {
-      const logoImage = element.querySelector('[data-uoc-logo]');
+      const logoImage = element.querySelector('[data-suoc-logo]');
       const artworkImage = element.querySelector('[data-identity-artwork]');
       return {
         bannerWidth: element.getBoundingClientRect().width,
@@ -130,8 +130,9 @@ test('the identity banner combines local artwork, the official logo and live SUO
       };
     });
     assert.match(layout.logoSource, /^file:/);
+    assert.match(layout.logoSource, /\/assets\/images\/brand\/suoc-mark\.png$/);
     assert.match(layout.artworkSource, /^file:/);
-    assert.equal(layout.logoNaturalWidth, 1537);
+    assert.equal(layout.logoNaturalWidth, 1024);
     assert.ok(layout.artworkNaturalWidth >= 1600);
     assert.ok(layout.artworkZIndex >= 0, 'Generated artwork must paint above the banner background');
     assert.ok(layout.logoWidth < layout.bannerWidth / 2);

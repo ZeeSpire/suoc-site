@@ -43,7 +43,7 @@ const expectedNavigation = [
 const expectedDisclosures = [
   'Candidaturi depuse pentru AG 30.06.2022',
   'Convocator 23.06.2022',
-  'Rezultat alegeri',
+  'Rezultat alegeri 2016',
   'Convocator 09.11.2016',
   'Convocator 02.11.2016',
   '2017',
@@ -98,20 +98,28 @@ test('the frozen SUOC archive is complete, local, and excludes the admin route',
     'Created and maintained by <a href="https://zeespire.com" target="_blank" rel="noopener noreferrer">ZeeSpire Software Solutions</a>.',
   );
   assert.deepEqual(manifest.identity, {
-    universityLogo: {
-      sourceUrl: 'https://www.univ-ovidius.ro/wp-content/uploads/2025/12/Logo-White-png.webp',
-      localPath: 'assets/images/brand/uoc-logo.webp',
+    unionLogo: {
+      localPath: 'assets/images/brand/suoc-logo.png',
+    },
+    unionMark: {
+      localPath: 'assets/images/brand/suoc-mark.png',
     },
     bannerArtwork: {
       localPath: 'assets/images/brand/suoc-identity-banner.png',
     },
   });
-  assertLocalFiles([manifest.identity.universityLogo], 'university logo');
+  assertLocalFiles([manifest.identity.unionLogo], 'union logo');
+  assertLocalFiles([manifest.identity.unionMark], 'union mark');
   assertLocalFiles([manifest.identity.bannerArtwork], 'banner artwork');
   assert.equal(
-    sha256(manifest.identity.universityLogo.localPath),
-    'c1abad88f358cf80ac3762659ba345cbf1c10f2ae809549c88860445cb9d537a',
-    'The official UOC emblem must remain byte-for-byte unchanged',
+    sha256(manifest.identity.unionLogo.localPath),
+    '166d7ec88f484864601602c2e64d0edd534ca850545ff6dc8ef5f499da7fcfdd',
+    'The generated SUOC emblem must remain byte-for-byte unchanged',
+  );
+  assert.equal(
+    existsSync(resolve(projectRoot, 'assets/images/brand/uoc-logo.webp')),
+    false,
+    'The general Ovidius University logo must not remain in the site assets',
   );
   assert.deepEqual(manifest.contact, {
     address: 'str. Ion Vodă nr. 58, sala P03',

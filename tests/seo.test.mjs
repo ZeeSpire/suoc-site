@@ -95,6 +95,11 @@ test('every route ships Open Graph and Twitter card metadata', () => {
     assert.equal(metaContent(html, 'og:title'), pageTitle(html).replace(/ \| SUOC$/, ''), `${route.file} og:title`);
     assert.equal(metaContent(html, 'og:description'), metaContent(html, 'description'), `${route.file} og:description`);
     assert.equal(metaContent(html, 'og:image'), ogImage, `${route.file} og:image`);
+    assert.equal(
+      metaContent(html, 'og:image:alt'),
+      'Sigla SUOC pe fundalul Sindicatului Universității Ovidius din Constanța',
+      `${route.file} og:image:alt`,
+    );
     assert.equal(metaContent(html, 'og:locale'), 'ro_RO', `${route.file} og:locale`);
     assert.equal(
       metaContent(html, 'og:site_name'),
@@ -114,7 +119,7 @@ test('the start page describes the organisation as structured data', () => {
   assert.equal(organisation.name, 'Sindicatul Universității Ovidius din Constanța');
   assert.equal(organisation.alternateName, 'SUOC');
   assert.equal(organisation.url, `${productionOrigin}/`);
-  assert.equal(organisation.logo, `${productionOrigin}/assets/images/brand/uoc-logo.webp`);
+  assert.equal(organisation.logo, `${productionOrigin}/assets/images/brand/suoc-logo.png`);
   assert.equal(organisation.email, manifest.contact.email);
   assert.equal(organisation.address['@type'], 'PostalAddress');
   assert.equal(organisation.address.streetAddress, manifest.contact.address);
@@ -143,6 +148,13 @@ test('every route links the SUOC icons', () => {
   }
   for (const icon of ['favicon.ico', 'assets/images/brand/apple-touch-icon.png']) {
     assert.ok(existsSync(resolve(projectRoot, icon)), `${icon} must exist`);
+  }
+});
+
+test('generated pages do not reference the general Ovidius University logo', () => {
+  for (const route of manifest.routes) {
+    const html = readRoute(route);
+    assert.doesNotMatch(html, /uoc-logo\.webp|data-uoc-logo/, `${route.file} old university logo reference`);
   }
 });
 
