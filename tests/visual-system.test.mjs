@@ -123,6 +123,9 @@ test('the identity banner combines local artwork, the SUOC logo and live organis
         bannerWidth: element.getBoundingClientRect().width,
         logoWidth: logoImage.getBoundingClientRect().width,
         logoNaturalWidth: logoImage.naturalWidth,
+        logoBackground: getComputedStyle(logoImage).backgroundColor,
+        logoBorderRadius: getComputedStyle(logoImage).borderRadius,
+        logoPadding: getComputedStyle(logoImage).paddingTop,
         artworkNaturalWidth: artworkImage.naturalWidth,
         artworkSource: artworkImage.src,
         artworkZIndex: Number(getComputedStyle(artworkImage).zIndex),
@@ -133,6 +136,9 @@ test('the identity banner combines local artwork, the SUOC logo and live organis
     assert.match(layout.logoSource, /\/assets\/images\/brand\/suoc-mark\.png$/);
     assert.match(layout.artworkSource, /^file:/);
     assert.equal(layout.logoNaturalWidth, 1024);
+    assert.equal(layout.logoBackground, 'rgba(0, 0, 0, 0)');
+    assert.equal(layout.logoBorderRadius, '0px');
+    assert.equal(layout.logoPadding, '0px');
     assert.ok(layout.artworkNaturalWidth >= 1600);
     assert.ok(layout.artworkZIndex >= 0, 'Generated artwork must paint above the banner background');
     assert.ok(layout.logoWidth < layout.bannerWidth / 2);

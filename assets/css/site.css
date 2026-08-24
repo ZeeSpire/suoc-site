@@ -173,13 +173,8 @@ a:hover {
 
 .brand__emblem {
   display: block;
-  box-sizing: border-box;
   width: 100%;
   aspect-ratio: 1;
-  padding: clamp(0.35rem, 0.7vw, 0.55rem);
-  border-radius: clamp(0.9rem, 1.5vw, 1.25rem);
-  background: rgb(255 255 255 / 96%);
-  filter: drop-shadow(0 0.7rem 1.2rem rgb(0 0 35 / 42%));
   object-fit: contain;
 }
 
