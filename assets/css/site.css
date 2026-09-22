@@ -440,8 +440,10 @@ ol {
   max-width: 68ch;
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
   color: var(--color-heading);
-  font-size: clamp(1.1rem, 1vw + 0.9rem, 1.35rem);
+  font-size: 1rem;
   line-height: 1.55;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .about-overview {
@@ -484,7 +486,10 @@ ol {
   background: linear-gradient(135deg, #fff 0%, var(--color-surface) 100%);
   box-shadow: 0 0.35rem 1rem rgb(25 42 61 / 6%);
   counter-increment: benefit;
+  font-size: 0.96rem;
   line-height: 1.55;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .about-benefits__grid p::before {
