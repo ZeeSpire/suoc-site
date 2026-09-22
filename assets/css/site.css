@@ -433,7 +433,7 @@ ol {
 
 .content-page--about > .page-heading,
 .content-page--about > .source-content {
-  width: min(100%, 1080px);
+  width: 100%;
 }
 
 .about-intro {
