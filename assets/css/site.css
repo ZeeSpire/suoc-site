@@ -436,7 +436,7 @@ ol {
 }
 
 .about-intro {
-  max-width: 68ch;
+  max-width: none;
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
   color: var(--color-heading);
   font-size: 1rem;
