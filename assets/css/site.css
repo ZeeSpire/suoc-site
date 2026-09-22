@@ -431,6 +431,11 @@ ol {
   overflow-wrap: anywhere;
 }
 
+html[data-route-id="despre-noi"] .source-content {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .source-content > :first-child {
   margin-top: 0;
 }
