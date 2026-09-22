@@ -680,6 +680,13 @@ ol {
   font-weight: 700;
 }
 
+.leadership-members__role {
+  display: inline-block;
+  min-width: 5rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
 .vacant {
   color: var(--color-muted);
   font-style: italic;
