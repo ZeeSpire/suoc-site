@@ -429,6 +429,10 @@ ol {
 .source-content {
   min-width: 0;
   overflow-wrap: anywhere;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65;
 }
 
 .content-page--about > .source-content {
@@ -485,8 +489,8 @@ ol {
   background: linear-gradient(135deg, #fff 0%, var(--color-surface) 100%);
   box-shadow: 0 0.35rem 1rem rgb(25 42 61 / 6%);
   counter-increment: benefit;
-  font-size: 0.96rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.65;
   text-align: justify;
   hyphens: auto;
 }
@@ -517,8 +521,8 @@ ol {
   max-width: 60ch;
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
   color: var(--color-heading);
-  font-size: clamp(1.1rem, 1vw + 0.9rem, 1.35rem);
-  line-height: 1.45;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
 .objectives-list {
@@ -541,7 +545,7 @@ ol {
   background: linear-gradient(135deg, #fff 0%, var(--color-surface) 100%);
   box-shadow: 0 0.35rem 1rem rgb(25 42 61 / 6%);
   counter-increment: objective;
-  line-height: 1.55;
+  line-height: 1.65;
 }
 
 .objectives-list li + li {
