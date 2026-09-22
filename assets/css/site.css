@@ -597,8 +597,8 @@ ol {
 }
 
 .leadership-bodies {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   margin: 0 0 clamp(2rem, 4vw, 3rem);
   padding: 0;
@@ -606,12 +606,16 @@ ol {
 }
 
 .leadership-bodies li {
+  display: grid;
+  min-height: 3.25rem;
+  place-items: center;
   padding: 0.65rem 1rem;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: var(--color-surface);
   color: var(--color-heading);
   font-weight: 600;
+  text-align: center;
 }
 
 .leadership-grid {
@@ -1798,6 +1802,10 @@ ol {
   }
 
   .leadership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .leadership-bodies {
     grid-template-columns: 1fr;
   }
 
