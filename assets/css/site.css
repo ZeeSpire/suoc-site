@@ -436,6 +436,63 @@ html[data-route-id="despre-noi"] .source-content {
   hyphens: auto;
 }
 
+.content-page--objectives > .page-heading,
+.content-page--objectives > .source-content {
+  width: min(100%, 1080px);
+}
+
+.objectives-intro {
+  max-width: 60ch;
+  margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
+  color: var(--color-heading);
+  font-size: clamp(1.1rem, 1vw + 0.9rem, 1.35rem);
+  line-height: 1.45;
+}
+
+.objectives-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  counter-reset: objective;
+  list-style: none;
+}
+
+.objectives-list li {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 1.25rem 1.25rem 1.25rem 4.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #fff 0%, var(--color-surface) 100%);
+  box-shadow: 0 0.35rem 1rem rgb(25 42 61 / 6%);
+  counter-increment: objective;
+  line-height: 1.55;
+}
+
+.objectives-list li + li {
+  margin-top: 0;
+}
+
+.objectives-list li::before {
+  position: absolute;
+  top: 1.1rem;
+  left: 1.1rem;
+  display: grid;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  content: counter(objective, decimal-leading-zero);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 .source-content > :first-child {
   margin-top: 0;
 }
@@ -1541,6 +1598,11 @@ html[data-route-id="despre-noi"] .source-content {
   .source-content ul,
   .source-content ol {
     padding-left: 1.25rem;
+  }
+
+  .source-content .objectives-list {
+    grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .post-meta {
