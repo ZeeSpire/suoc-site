@@ -435,6 +435,7 @@ ol {
   line-height: 1.65;
 }
 
+.content-page--about > .page-heading,
 .content-page--about > .source-content {
   width: 100%;
 }
