@@ -584,9 +584,8 @@ ol {
   letter-spacing: 0.03em;
 }
 
-.content-page--leadership > .page-heading,
 .content-page--leadership > .source-content {
-  width: min(100%, 1080px);
+  width: 100%;
 }
 
 .leadership-intro {
