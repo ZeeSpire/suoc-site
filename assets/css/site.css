@@ -448,6 +448,16 @@ ol {
   hyphens: auto;
 }
 
+.content-page--about :is(.about-intro, .about-overview p, .about-benefits__grid p),
+.content-page--about :is(.about-intro, .about-overview p, .about-benefits__grid p) :is(strong, b, em, i) {
+  color: var(--color-text);
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
 .content-page--about .source-content :is(strong, b, em, i) {
   font-style: normal;
   font-weight: inherit;
