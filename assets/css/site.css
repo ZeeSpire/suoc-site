@@ -636,14 +636,12 @@ ol {
   margin-top: 0;
 }
 
-.leadership-roster,
-.leadership-members {
+.leadership-roster {
   margin: 0;
   padding: 0;
 }
 
-.leadership-roster > div,
-.leadership-members li {
+.leadership-roster > div {
   padding: 0.9rem 0;
   border-top: 1px solid var(--color-border);
 }
@@ -661,30 +659,6 @@ ol {
 
 .leadership-roster dd {
   margin: 0;
-}
-
-.leadership-members {
-  list-style: none;
-}
-
-.leadership-members li {
-  padding-left: 1.25rem;
-}
-
-.leadership-members li::before {
-  display: inline-block;
-  width: 1.25rem;
-  margin-left: -1.25rem;
-  color: var(--color-primary);
-  content: "•";
-  font-weight: 700;
-}
-
-.leadership-members__role {
-  display: inline-block;
-  min-width: 5rem;
-  color: var(--color-primary);
-  font-weight: 700;
 }
 
 .vacant {
