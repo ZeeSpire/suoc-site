@@ -442,11 +442,15 @@ ol {
 .about-intro {
   max-width: none;
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
-  color: var(--color-heading);
   font-size: 1rem;
-  line-height: 1.55;
+  line-height: 1.65;
   text-align: justify;
   hyphens: auto;
+}
+
+.content-page--about .source-content :is(strong, b, em, i) {
+  font-style: normal;
+  font-weight: inherit;
 }
 
 .about-overview {
