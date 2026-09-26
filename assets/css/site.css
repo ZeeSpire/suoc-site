@@ -18,6 +18,7 @@
   --color-accent: #6699FF;
   --content-width: min(90vw, 1290px);
   --reading-width: 78ch;
+  --page-content-width: 1080px;
   --section-space: clamp(1.5rem, 3.5vw, 2.5rem);
   color: var(--color-text);
   font-family: "IBM Plex Sans", Arial, sans-serif;
@@ -1376,6 +1377,15 @@ ol {
 
 .archive-page--events > .page-heading {
   width: 100%;
+}
+
+.content-page > :is(.page-heading, .source-content),
+.post > :is(.page-heading, .source-content),
+.archive-page,
+.archive-page > .page-heading,
+.content-page--note > .note-back-link {
+  width: min(100%, var(--page-content-width));
+  margin-inline: auto;
 }
 
 .event-year {
