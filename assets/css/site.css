@@ -533,7 +533,7 @@ ol {
 }
 
 .objectives-intro {
-  max-width: 60ch;
+  max-width: none;
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
   color: var(--color-heading);
   font-size: 1rem;
@@ -589,7 +589,7 @@ ol {
 }
 
 .leadership-intro {
-  max-width: 65ch;
+  max-width: none;
   margin-bottom: 1.5rem;
   color: var(--color-heading);
   font-size: 1rem;
