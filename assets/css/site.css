@@ -351,17 +351,17 @@ main {
 .content-page > .source-content,
 .post > .page-heading,
 .post > .source-content {
-  width: min(100%, var(--reading-width));
+  width: 100%;
   margin-inline: auto;
 }
 
 .archive-page {
-  width: min(100%, 1080px);
+  width: 100%;
   margin-inline: auto;
 }
 
 .archive-page > .page-heading {
-  width: min(100%, var(--reading-width));
+  width: 100%;
   margin-inline: auto;
 }
 
@@ -529,7 +529,7 @@ ol {
 
 .content-page--objectives > .page-heading,
 .content-page--objectives > .source-content {
-  width: min(100%, 1080px);
+  width: 100%;
 }
 
 .objectives-intro {
@@ -794,7 +794,7 @@ ol {
 .content-page--start,
 .content-page--start > .page-heading,
 .content-page--start > .source-content {
-  width: min(100%, 1080px);
+  width: 100%;
   margin-inline: auto;
 }
 
@@ -1210,7 +1210,7 @@ ol {
 
 .content-page--note > .note-back-link {
   display: flex;
-  width: min(100%, var(--reading-width));
+  width: 100%;
   align-items: center;
   gap: 0.7rem;
   margin: 2rem auto 0;
@@ -1232,7 +1232,7 @@ ol {
 .content-page--legislation,
 .content-page--legislation > .page-heading,
 .content-page--legislation > .source-content {
-  width: min(100%, 1080px);
+  width: 100%;
   margin-inline: auto;
 }
 
@@ -1371,7 +1371,7 @@ ol {
 }
 
 .archive-page--events {
-  width: min(100%, 1080px);
+  width: 100%;
 }
 
 .archive-page--events > .page-heading {
