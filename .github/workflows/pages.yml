@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+      - name: Build search index
+        run: node scripts/build-search-index.mjs
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
       - name: Upload static site
